@@ -81,7 +81,7 @@ new_hash = {:yukihiro_matsumoto => {
           :languages => ["C"]
         }
      }
-    new_hash.merge()
+   programmer_hash = new_hash.merge(programmer_hash)
 end
 
 def changing_alan
